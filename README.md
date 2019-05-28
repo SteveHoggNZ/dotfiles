@@ -14,12 +14,11 @@ Set zsh as your login shell:
 Install
 -------
 
-Clone onto your laptop:
+Clone onto your laptop, then keep the fork updated:
 
     git clone git@github.com:SteveHoggNZ/dotfiles.git ~/dotfiles
-
-(Or, [fork and keep your fork
-updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
+    cd dotfiles
+    git remote add upstream git@github.com:thoughtbot/dotfiles.git
 
 Install [rcm](https://github.com/thoughtbot/rcm):
 
