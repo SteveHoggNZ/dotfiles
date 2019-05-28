@@ -8,6 +8,7 @@ Requirements
 
 Set zsh as your login shell:
 
+    test $( grep -c /usr/local/bin/zsh /etc/shells ) == 0 && sudo bash -c "echo /usr/local/bin/zsh >> /etc/shells"
     chsh -s $(which zsh)
 
 Install
